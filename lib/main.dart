@@ -106,11 +106,11 @@ class _QuizScreenState extends State<QuizScreen> {
               width: 300,
               color: const Color.fromARGB(150, 255, 255, 255),
             ),
-            const SizedBox(height: 80),
+            const SizedBox(height: 100),
             const Text(
               'Learn Flutter the fun way!',
               style: TextStyle(
-                color: Color.fromARGB(255, 237, 223, 252),
+                color: Colors.yellow,
                 fontSize: 24,
               ),
             ),
