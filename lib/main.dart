@@ -16,9 +16,10 @@ class QuizApp extends StatelessWidget {
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color.fromARGB(255, 78, 13, 151),
-                Color.fromARGB(255, 107, 15, 168),
-              ],
+                  Colors.blue,
+                  Colors.blueAccent,
+                ],
+
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
@@ -153,7 +154,7 @@ class _QuizScreenState extends State<QuizScreen> {
                 child: ElevatedButton(
                   onPressed: answerQuestion,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color.fromARGB(255, 33, 1, 95),
+                    backgroundColor: Colors.orange,
                     foregroundColor: Colors.white,
                     padding: const EdgeInsets.symmetric(
                       vertical: 10,
